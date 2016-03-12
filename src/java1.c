@@ -11,7 +11,8 @@ int main (){
     int druga;
     scanf("%d", &prva);
     scanf("%d", &druga);
-    printf("Vneseni stevili: %d in %d", prva, druga);
-    printf("Vsota: ", prva+druga);
+    printf("Vneseni stevili: %d in %d\n", prva, druga);
+    int tretja=prva+druga;
+    printf("Vsota: %d", tretja);
     return 0;
 }
